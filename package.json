@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rf dist ; parcel src/index.html --public-url ./"
+  },
+  "name": "mvc-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

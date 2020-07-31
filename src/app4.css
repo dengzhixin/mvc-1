@@ -1,0 +1,21 @@
+.app4 .circle {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    border: 1px solid gray;
+    transition: all 300ms linear;
+    border-radius: 50%;
+}
+
+.app4 .circle.active {
+    animation: x 500ms infinite alternate-reverse;
+}
+
+@keyframes x {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
